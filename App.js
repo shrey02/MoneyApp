@@ -63,7 +63,7 @@ const App = () => {
   return (
     <>
     <Navbar style={styles.navbar} gridData={gridData}/>
-    {/* <View style={styles.container}>
+     <View style={styles.container}>
       <View style={styles.headingColumn}> 
     {lableArray.map((_,idx)=>( 
       <View key={`${idx+Math.random()}`} style={styles.labelCell}> 
@@ -74,7 +74,7 @@ const App = () => {
     ))
     }
     
-      </View> */}
+      </View>
       {gridData.map((row, rowIndex) => (
         <View key={rowIndex} style={styles.gridRow}>
           {row.map((cell, colIndex) => (
